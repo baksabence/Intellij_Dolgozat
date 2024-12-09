@@ -14,4 +14,18 @@ public class Tabla {
         }
     }
 
+    public void Megjelenit(){
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                System.out.print(T[i][j]);
+            }
+            System.out.println();
+        }
+//        for (int i = 0; i < T.length; i++) {
+//                for (int j = 0; j < T.length; j++) {
+//                    System.out.print(T[i][j]);
+//                }
+//        }
+    }
+
 }
