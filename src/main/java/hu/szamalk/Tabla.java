@@ -24,7 +24,7 @@ public class Tabla {
                 System.out.print(T[i][j]);
             }
             System.out.println();
-            Elhelyez(8);
+            Elhelyez(rnd.nextInt(8));
         }
 //        for (int i = 0; i < T.length; i++) {
 //                for (int j = 0; j < T.length; j++) {

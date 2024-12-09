@@ -5,5 +5,6 @@ public class Main {
         Tabla tabla = new Tabla('#');
         tabla.Megjelenit();
 
+
     }
 }
